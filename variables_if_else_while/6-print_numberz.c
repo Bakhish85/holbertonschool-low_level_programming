@@ -2,7 +2,7 @@
 /**
  * main - the entry point
  *
- * Description: single digits through putvhar function
+ * Description: single digits through putchar function
  *
  * Return: Always 0 success
  */
