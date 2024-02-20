@@ -8,16 +8,12 @@
  */
 int main(void)
 {
-	int i;
-	char c;
+	int num;
+	char letter;
 
-	for (i = 0 ; i <= 9 ; i++)
-	{
-		putchar((i % 10) + '0');
-	}
-	for (c = 'a' ; c <= 'f' ; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
+	for (num = 0 ; num <= 9 ; num++)
+		putchar((num % 10) + '0');
+	for (letter = 'a' ; letter <= 'f' ; letter++)
+		putchar(letter);
+	putchai('\n');
 }
