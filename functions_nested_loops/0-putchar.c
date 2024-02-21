@@ -9,12 +9,7 @@
  * Return: Always 0 succes
  */
 
-int _putchar(char c)
-{
-	    return putchar(c);
-}
-
-int print_putchar()
+int main(void)
 {
 	    _putchar('_');
 	    _putchar('p');
@@ -25,10 +20,5 @@ int print_putchar()
 	    _putchar('a');
 	    _putchar('r');
 	    _putchar('\n');
-	    return 0;
-}
-
-int main() {
-	    print_putchar();
-	    return 0;
+	    return (0);
 }
