@@ -6,8 +6,8 @@
  * @number2: Second of two integers
  * Return: The sum
  */
-int add(int number1, int number2)
+int add(int num1, int num2)
 {
-	return (number1 + number2);
+	return (num1 + num2);
 }
 
