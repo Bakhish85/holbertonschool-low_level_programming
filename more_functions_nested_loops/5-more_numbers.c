@@ -6,14 +6,14 @@
  */
 void more_numbers(void)
 {
-	int a = '0';
+	int a = 0;
 	int c;
 
-	while (i < '10')
+	while (a < 10)
 	{
 		for (c = '0' ; c < '15' ; c++)
 			_puthcar(c);
 	}
-	_putchar(i);
+	_putchar(a + '0');
 	_putchar('\n');
 }
