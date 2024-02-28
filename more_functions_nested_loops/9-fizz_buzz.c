@@ -14,12 +14,12 @@ void main(void)
 	for (i = 1 ; i <= 100 ; i++)
 	{
 		if ((i % 3) == 0)
-			putchar('Fizz');
+			prÄintf('Fizz');
 		else if ((i % 5) == 0)
-			putchar('Buzz');
+			printf('Buzz');
 		else if ((i % 3) == 0 && (i % 5) == 0);
-			putchar('FizzBuzz');
+			printf('FizzBuzz');
 	}
-	putchar('\n');
+	printf('\n');
 }
 
