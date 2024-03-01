@@ -13,5 +13,5 @@ void puts2(char *str)
 	while (str[index++])
 		length++;
 	for (index = 0 ; index < length ; index++)
-		_putchar(s[2 * index]);
+		_putchar(str[2 * index]);
 }
