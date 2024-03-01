@@ -7,9 +7,16 @@
  */
 void rev_string(char *s)
 {
-	int length = _strlen(char *s);
+	int length = 0;
+	char *end = s;
 	int i;
 
+	while (*end != '\0')
+	{
+		lenght++;
+		end++;
+	}
+	return (length);
 	for (i = 0; i <= length / 2; i++)
 	{
 		int temp = s[i];
