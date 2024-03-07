@@ -9,13 +9,13 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int a = 0;
-	int b = =;
+	int b;
 
 	while (haystack[a])
 	{
 		while (needle[b])
 		{
-			if (haystack[a+b] != needle[b])
+			if (haystack[a +  b] != needle[b])
 				break;
 			b++;
 		}
