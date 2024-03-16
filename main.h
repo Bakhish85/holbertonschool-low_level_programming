@@ -4,11 +4,11 @@
 /**
  * File: main.h
  *
- * Desc: Header file containing declarations for all functions
- *
+ * Desc: Header file containing decalarations for all functions
+ * 
  */
 
 int _putchar(char c);
-char *create_array(unsigned int size, char c);
+void *malloc_checked(unsigned int b);
 
 #endif
