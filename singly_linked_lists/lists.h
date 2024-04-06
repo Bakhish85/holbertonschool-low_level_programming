@@ -16,11 +16,10 @@
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- *
- * Description: singly linked node structure
- *		for Holberton project
+ * 
+ * Description: singly linked list node structure
  */
-typedef struct lists_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
